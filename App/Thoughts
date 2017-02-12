@@ -1,0 +1,17 @@
+1. Popup on icon allows user to access app
+      Check if I can call external apps, otherwise create a webpage with the
+      info.
+
+2. Even Listener on a button that navigates from active tab.
+  -Can add a button to the page itself to add to the app?
+
+Need to add content scripts
+http://stackoverflow.com/questions/25107229/how-to-fill-out-a-textfield-within-
+a-form-on-a-webpage-from-a-chrome-extension
+
+
+
+3. Pulls all entered data and pops up for confirmation
+
+Start with a handful of popular sites and then branch out
+Facebook, Youtube, Amazon, Spotify, Netflix
