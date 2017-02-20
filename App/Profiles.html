@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="ManageStyle.css">
+  </head>
+  <body>
+    <script src="NavigateFunctions.js"></script>
+    <!-- Create a side bar that pushes out the page.
+         Used for navigating between data-->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="Profiles.html">Profiles</a>
+      <br>
+      <br>
+      <a href="#">Management</a>
+
+      <div id="helpLink"><a href="#">Help</a></div>
+    </div>
+    <!-- Use any element to open the sidenav -->
+    <div id="menuButton">
+      <span onclick="openNav()">&#9776; Menu</span>
+    </div>
+
+    <div id="main">
+      <h1>Profiles</h1>
+
+      <h2>Main</h2>
+      <div id="mainProfile" class="profile">
+      Email: <a href="swb26@bath.ac.uk">swb26@bath.ac.uk</a> <br>
+      First Name: <input type="text" name="FirstName" value="Samuel"/><br>
+      Last Name: <input type="text" name="LastName"  value="Barton"/><br>
+      Home Phone Number: <input type="text" name="HomePhone" value=""/> <br>
+      Mobile Phone Number:  <input type="text" name="HomePhone"
+                              value="07xxxxxxxxx"/><br>
+
+      Address: <br>
+        <div id="mainProfAddress" class='address'>
+          <textarea rows="5" cols="40" name="HomeAddress">
+            10 Abritrary Avenue,
+            Bath,
+            BAx xxx
+        </textarea>
+        </div>
+      </div>
+      <br>
+        <input type="button" name="edit" value="Edit" />
+      <br>
+      <br>
+      <br>
+      <input type="button" name="addNew" value="Add New Profile" />
+
+
+
+    </div>
+  </body>
+
+</html>
